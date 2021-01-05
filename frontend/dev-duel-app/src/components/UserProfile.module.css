@@ -1,0 +1,51 @@
+.username {
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: row;
+}
+    
+
+.label {
+    
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    
+}
+
+.value {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.duelContainer {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.duelResults {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.winner {
+    padding: 10px;
+}
+
+.vs {
+    border-bottom: solid;
+    padding: 10px;
+}

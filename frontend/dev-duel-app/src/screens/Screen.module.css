@@ -1,0 +1,43 @@
+.index {
+    display:flex;
+    flex-direction: row;
+    margin: 24px 0;
+    align-items: center;
+    justify-content: space-around;
+ }
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 12px 0;
+    width: 30%;
+    
+    
+    
+}
+
+.devDuelButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 50px;
+    text-align: center;
+    padding: 14px 28px;
+}
+
+
+
+.duel:hover {
+    background-color: red;
+}
+
+.linkContainer span {
+    padding: 10px;
+}
+
+
+
+.pageTitle {
+    font-family: 'Press Start 2P', cursive;
+}
